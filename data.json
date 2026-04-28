@@ -1,0 +1,81 @@
+{
+  "portfolio": [
+    {
+      "id": 1,
+      "category": "web",
+      "label": "Web Design",
+      "title": "Corporate Excellence",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80",
+      "alt": "Corporate Excellence website",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "category": "app",
+      "label": "Mobile App",
+      "title": "Fitness Tracker",
+      "image": "/assets/fitness.png",
+      "alt": "Fitness Tracker app",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "category": "ecommerce",
+      "label": "E-Commerce",
+      "title": "Global Fashion Store",
+      "image": "/assets/ecom.webp",
+      "alt": "Global Fashion Store",
+      "link": "#"
+    },
+    {
+      "id": 4,
+      "category": "web",
+      "label": "Web Design",
+      "title": "Creative Agency Port",
+      "image": "/assets/webdesign.jpeg",
+      "alt": "Creative Agency Portfolio",
+      "link": "#"
+    },
+    {
+      "id": 5,
+      "category": "app",
+      "label": "Mobile App",
+      "title": "Smart Home UI",
+      "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80",
+      "alt": "Smart Home UI app",
+      "link": "#"
+    },
+    {
+      "id": 6,
+      "category": "ecommerce",
+      "label": "E-Commerce",
+      "title": "Gadget Hub",
+      "image": "/assets/gadget.png",
+      "alt": "Gadget Hub e-commerce",
+      "link": "#"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "text": "Raga Designers transformed our vision into a stunning reality. Their team in Chennai is truly world-class, delivering a website that helped us conquer the UK market.",
+      "name": "James Wilson",
+      "role": "CEO, TechFlow UK",
+      "avatar": "https://i.pravatar.cc/150?u=1"
+    },
+    {
+      "id": 2,
+      "text": "The best website designing company in India. They handled our E-commerce project with extreme professionalism. Our sales have increased by 40% since the launch.",
+      "name": "Priya Sharma",
+      "role": "Founder, Elegance India",
+      "avatar": "https://i.pravatar.cc/150?u=2"
+    },
+    {
+      "id": 3,
+      "text": "Incredible UI/UX work! They kept speed and loading time in mind, which is critical for our USA-based users. Raga Designers is our go-to partner for digital growth.",
+      "name": "Michael Chen",
+      "role": "CTO, Innovate SF",
+      "avatar": "https://i.pravatar.cc/150?u=3"
+    }
+  ]
+}
