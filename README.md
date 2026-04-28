@@ -194,11 +194,11 @@ With more time, I would:
 
 ## 📬 Contact
 
-Built by **[Your Name]**
+Built by **Kavisudar**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blue?style=flat-square)](https://your-portfolio.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/your-profile)
-[![Email](https://img.shields.io/badge/Email-Say%20Hi-red?style=flat-square&logo=gmail)](mailto:your@email.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blue?style=flat-square)](https://kavisudar.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/kavisudar)
+[![Email](https://img.shields.io/badge/Email-Say%20Hi-red?style=flat-square&logo=gmail)](mailto:kavisudar.be14@email.com)
 
 ---
 
