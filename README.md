@@ -11,11 +11,6 @@
 
 ---
 
-## 📸 Preview
-
-![Raga Designers Homepage Preview](./assets/preview.png)
-
----
 
 ## 📋 Table of Contents
 
