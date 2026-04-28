@@ -13,7 +13,7 @@
 
 ## 📸 Preview
 
-![Raga Designers Homepage Preview](https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=1200&q=80)
+![Raga Designers Homepage Preview](./assets/preview.png)
 
 ---
 
