@@ -309,6 +309,45 @@
         </div>
     </section>
 
+    
+    <!-- Chatbot Widget -->
+<div id="chatbot" class="chatbot">
+  
+    <button id="chat-trigger" class="chat-trigger">
+        <i data-lucide="message-circle" id="chat-icon"></i>
+    </button>
+
+    
+    <div id="chat-window" class="chat-window">
+        <div class="chat-header">
+            <div class="bot-info">
+                <div class="bot-avatar">RD</div>
+                <div>
+                    <h4>Raga Assistant</h4>
+                    <p>Online | Typical reply: < 1m</p>
+                </div>
+            </div>
+            <button id="close-chat"><i data-lucide="x"></i></button>
+        </div>
+
+        <div id="chat-body" class="chat-body">
+            
+            <div class="message bot">
+                Hi! 👋 I'm your RD Assistant. How can I help you build your dream project today?
+            </div>
+        </div>
+
+        <div class="chat-footer">
+            <div class="chat-options">
+                <button onclick="handleChatOption('services')">Our Services</button>
+                <button onclick="handleChatOption('portfolio')">See Work</button>
+                <button onclick="handleChatOption('support')">Support</button>
+                <button onclick="handleChatOption('career')">Join Team</button>
+            </div>
+        </div>
+    </div>
+</div>
+
     <!-- ===== FOOTER ===== -->
     <footer class="footer">
         <div class="container">

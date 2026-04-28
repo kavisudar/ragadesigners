@@ -355,3 +355,64 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 }); // end DOMContentLoaded
+
+
+// for chatbot 
+
+
+const chatTrigger = document.getElementById('chat-trigger');
+const chatWindow = document.getElementById('chat-window');
+const closeChat = document.getElementById('close-chat');
+const chatBody = document.getElementById('chat-body');
+
+// Toggle Chat Window
+chatTrigger.addEventListener('click', () => {
+    chatWindow.style.display = chatWindow.style.display === 'flex' ? 'none' : 'flex';
+});
+
+closeChat.addEventListener('click', () => {
+    chatWindow.style.display = 'none';
+});
+
+// Chat Logic
+function handleChatOption(option) {
+    let userMsg = "";
+    let botMsg = "";
+
+    // Set messages based on choice
+    switch(option) {
+        case 'services':
+            userMsg = "Tell me about your services.";
+            botMsg = "We specialize in Web Design, Mobile Apps, E-Commerce, and SEO. Which one interests you?";
+            break;
+        case 'portfolio':
+            userMsg = "I want to see your work.";
+            botMsg = "Awesome! You can see our latest masterpieces in the 'Work' section of the homepage. We've worked with global brands!";
+            break;
+        case 'support':
+            userMsg = "I need support.";
+            botMsg = "Our support team is active 24/7. You can email us at info@ragadesigners.com or use the contact form below.";
+            break;
+        case 'career':
+            userMsg = "Are you hiring?";
+            botMsg = "We are always looking for creative talent! Send your resume to careers@ragadesigners.com.";
+            break;
+    }
+
+    addMessage(userMsg, 'user');
+    
+    // Simulate bot thinking
+    setTimeout(() => {
+        addMessage(botMsg, 'bot');
+    }, 600);
+}
+
+function addMessage(text, sender) {
+    const msgDiv = document.createElement('div');
+    msgDiv.classList.add('message', sender);
+    msgDiv.textContent = text;
+    chatBody.appendChild(msgDiv);
+    
+    // Auto scroll to bottom
+    chatBody.scrollTop = chatBody.scrollHeight;
+}
