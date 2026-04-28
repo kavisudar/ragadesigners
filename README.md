@@ -1,4 +1,4 @@
-# 🎨 Raga Designers — Frontend Assignment
+# 🎨 Raga Designers
 
 > A modern, responsive, and performance-optimized homepage built with **HTML, CSS & JavaScript** for the Raga Designers Frontend Developer role assignment.
 
