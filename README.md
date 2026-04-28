@@ -182,7 +182,7 @@ The hero parallax (`transform: translateY`) caused visible jank on mobile. Wrapp
 
 With more time, I would:
 
-- **Real API integration** — Replace `data.json` with a CMS (Contentful / Sanity) or a Node.js REST API so content editors can update the site without touching code
+- **Real API integration** — Replace `data.json` with a CMS (Contentful / Sanity) or a Spring REST API so content editors can update the site without touching code
 - **Skeleton loading screens** — Replace the pulsing text loader with skeleton card placeholders matching the actual card shape
 - **CSS Scroll-Driven Animations** — Use the new native `@scroll-timeline` API instead of `IntersectionObserver` for scroll-reveal effects
 - **Image optimisation pipeline** — Convert all assets to WebP with `srcset` for responsive images, saving 30–50% bandwidth
